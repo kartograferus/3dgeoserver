@@ -1,0 +1,16 @@
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+*.DotSettings.user
+*.csproj.user
+_ReSharper.Caches/
+*.pidb
+*.pdb
+Thumbs.db
+__pycache__/
+*.pyc
+*.log

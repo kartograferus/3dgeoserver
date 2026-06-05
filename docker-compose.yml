@@ -1,0 +1,14 @@
+services:
+  geoserver:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: 3dgeoserver
+    ports:
+      - "5090:5090"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - Tilesets__DataPath=/app/data/tilesets
+    restart: unless-stopped
+    volumes:
+      - ./data/tilesets:/app/data/tilesets:ro

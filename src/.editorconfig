@@ -1,0 +1,28 @@
+##
+# https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview
+# https://learn.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference
+root = true
+
+[*.{cs,vb}]
+charset = utf-8
+end_of_line = crlf
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+dotnet_style_qualification_for_field = false:silent
+dotnet_style_qualification_for_property = false:silent
+dotnet_style_qualification_for_method = false:silent
+dotnet_style_qualification_for_event = false:silent
+dotnet_style_predefined_type_for_locals_parameters_members = true:silent
+dotnet_style_predefined_type_for_member_access = true:silent
+dotnet_style_require_accessibility_modifiers = for_non_interface_members:silent
+
+[*.{json,xml,md,yml}]
+charset = utf-8
+end_of_line = crlf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true

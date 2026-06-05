@@ -1,0 +1,23 @@
+{
+  "styles": [
+    {
+      "name": "Default",
+      "color": "color('white')",
+      "show": "true"
+    },
+    {
+      "name": "Height-based",
+      "color": {
+        "expression": "mix(color('blue'), color('red'), ${Temperature} / 100.0)"
+      },
+      "show": "${Temperature} > 0"
+    },
+    {
+      "name": "LOD debug",
+      "color": {
+        "expression": "vec4(${ScreenSpaceError} / 32.0, 0.0, 0.0, 1.0)"
+      },
+      "show": "true"
+    }
+  ]
+}

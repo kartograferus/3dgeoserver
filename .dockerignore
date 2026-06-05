@@ -1,0 +1,17 @@
+**/.git/
+**/bin/
+**/obj/
+**/.vs/
+**/.vscode/
+*.user
+*.suo
+*.DotSettings.user
+_ReSharper.Caches/
+*.pidb
+*.pdb
+Thumbs.db
+__pycache__/
+*.pyc
+*.log
+*.sln.docstates
+*.csproj.user

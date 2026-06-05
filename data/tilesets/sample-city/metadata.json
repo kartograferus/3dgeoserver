@@ -1,0 +1,11 @@
+{
+  "buildings": [
+    { "id": "b001", "name": "City Hall", "height": 42.0, "floors": 10, "Temperature": 22.5 },
+    { "id": "b002", "name": "Library", "height": 28.0, "floors": 6, "Temperature": 21.0 },
+    { "id": "b003", "name": "Museum", "height": 35.0, "floors": 8, "Temperature": 20.0 }
+  ],
+  "terrain": [
+    { "id": "t001", "type": "ground", "material": "asphalt" },
+    { "id": "t002", "type": "vegetation", "material": "grass" }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "asset": {
+    "version": "1.1"
+  },
+  "geometricError": 500.0,
+  "root": {
+    "boundingVolume": {
+      "region": [-1.31973, 0.69886, -1.31966, 0.69893, 0.0, 88.0]
+    },
+    "geometricError": 500.0,
+    "refine": "ADD",
+    "content": {
+      "uri": "0/0/0.b3dm"
+    },
+    "children": [
+      {
+        "boundingVolume": {
+          "region": [-1.31973, 0.69886, -1.31970, 0.69890, 0.0, 44.0]
+        },
+        "geometricError": 250.0,
+        "refine": "REPLACE",
+        "content": {
+          "uri": "1/0/0.b3dm"
+        },
+        "children": [
+          {
+            "boundingVolume": {
+              "region": [-1.31973, 0.69886, -1.31972, 0.69888, 0.0, 20.0]
+            },
+            "geometricError": 100.0,
+            "content": {
+              "uri": "2/0/0.b3dm"
+            }
+          }
+        ]
+      },
+      {
+        "boundingVolume": {
+          "region": [-1.31970, 0.69889, -1.31966, 0.69893, 0.0, 44.0]
+        },
+        "geometricError": 250.0,
+        "content": {
+          "uri": "1/1/0.b3dm"
+        }
+      }
+    ]
+  }
+}
